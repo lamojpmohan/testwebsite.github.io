@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>KEPA CONTACTS</title>
+    <link rel="stylesheet" type="text/css" href="css/materialize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/w3.css">
+    <link rel="stylesheet" type="text/css" href="font.css">
+</head>
+<!--Body-->
+<body>
+<style>
+
+body {
+            display: flex;
+            min-height: 100vh;
+            flex-direction: column;
+            background-color: bisque;
+
+
+        }
+
+        main {
+            flex: 1 0 auto;
+        }
+
+ @font-face {
+            font-family: 'Material Icons';
+            font-style: normal;
+            font-weight: 400;
+            src: url(css/font.woff2) format('woff2');
+        }
+
+        .material-icons {
+            font-family: 'Material Icons';
+            font-weight: normal;
+            font-style: normal;
+            font-size: 24px;
+            line-height: 1;
+            letter-spacing: normal;
+            text-transform: none;
+            display: inline-block;
+            white-space: nowrap;
+            word-wrap: normal;
+            direction: ltr;
+            -webkit-font-smoothing: antialiased;
+        }
+
+
+#grid {
+           height: 500px;
+            background-color: rgb(0, 17, 255);
+            /* For browsers that do not support gradients */
+            background-image: linear-gradient(rgba(208, 25, 110), rgba(208, 25, 110));
+            /* Standard syntax (must be last) */
+            font-size: 20px;
+            color: white;
+            padding: 3px;
+            border-radius: 7px;
+            border-color: white;
+            border-style: solid;
+            font-family: cambria;
+            font-weight: bold;
+        }
+
+
+* {
+  box-sizing: border-box;
+}
+
+#myInput {
+  background-image: url('/css/searchicon.png');
+  background-position: 10px 12px;
+  background-repeat: no-repeat;
+  width: 100%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+}
+
+#myUL {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#myUL li a {
+  border: 1px solid #ddd;
+  border-color: white;
+  border-style: solid;
+  border-radius: 15px;
+  margin-top: -1px; /* Prevent double borders */
+  background-color: #2F4F4F ;
+  opacity: 0.9;
+  padding: 7px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  display: list-item;
+  margin-top: 10px;
+  font-family: Comic Sans MS;
+
+}
+
+#myUL li a:hover:not(.header) {
+  background-color: black;
+}
+</style>
+
+<script src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+
+
+
+
+    <!-- Dropdown Structure -->
+    <ul id="dropdown1" class="dropdown-content" style="background-color: rgb(57.461, 53.182, 10.729) !important">
+        <li><a style="padding-left: 2px;font-family: cambria;font-weight: bold;background-color: blueviolet;color: white;"
+                onclick="M.toast({html: 'LAMOJ P MOB:9495101515 Email: lamojj@gmail.com Send Your Valuable Suggestions and Feedback'})"><b>DEVELOPER</b></a></li>
+
+    </ul>
+    <!--Navigation Bar-->
+    <nav>
+        <div class="nav-wrapper" style="background-color: rgba(208,25,110) !important">
+            <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">dehaze</i></a>
+            <a style="font-size: 22px;text-align: center;padding: 5px;font-family: times header"><b>KEPA CONTACTS</b></a>
+            <ul class="right">
+                <li><a class="dropdown-trigger" href="#!" data-target="dropdown1"><i class="material-icons">more_vert</i></a></li>
+            </ul>
+        </div>
+    </nav>
+
+   <ul id="slide-out" class="sidenav">
+        <ul id="staggered-list" class="side-nav fixed grey darken-4 blue-grey-text text-lighten-4 go">
+            <br />
+            <div style="text-align:center;" id="profilepic">
+                <img src="kepa.jpg" alt="" class="circle responsive-img" width="300">
+                <br> <br>
+                <b id="grid">KERALA POLICE ACADEMY</b>
+            </div>
+            <br>
+
+            
+        <li><a class="white-text text-lighten-2" style="background-color: rgb(19, 93, 167 ) !important" href="home.html"><i
+                        class="fa fa-fw fa-home fa-2x"></i><b>HOME</b></a></li>
+           
+            <li><a class="white-text text-lighten-2" style="background-color: rgb(19, 128, 48  ) !important" href="feedback.html"><i
+                        class="fa fa-fw fa-user fa-2x"></i><b>FEEDBACK</b></a></li>
+          
+           
+              
+        </ul>
+
+    </ul>
+
+
+<div class="w3">
+  <div class="w3-bar w3-orange  w3-large">
+    <a href="" style="padding-left:5px;font-weight: bold;font-family:georgia;"class="w3-bar-item w3-button"></a>
+    <a href="" style="padding-left:5px;font-weight: bold;font-family:georgia;"class="w3-bar-item w3-button"></a>
+    <a href="admin.html" style="padding-left:5px;font-weight: bold;font-family:georgia;color:black"class="w3-bar-item w3-button">ADMIN</a>
+    <a href="indoor.html" style="padding-right:5px;font-weight: bold;font-family:georgia;color:black"class="w3-bar-item w3-button">INDOOR</a>
+    <a href="allcompanies.html" style="padding-right:5px;font-weight: bold;font-family:georgia;color:black"class="w3-bar-item w3-button">OUTDOOR</a>
+   
+  </div>
+</div>
+
+<div class="container">
+<div class="w3-panel w3-red"style="border-radius: 15px">
+    <p style="text-align: center;font-size: 17px;font-weight: bold;border: 1px solid #ddd;
+  border-radius: 15px;display: block;">KASARAGOD</p>
+  </div>
+
+  <div class="container">
+    
+<div>
+
+<input style="padding: 2px; color:bisque;font-weight: bold;background-color: black;opacity: .7;border-radius: 10px;border-style: solid;margin-right: 5px" type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names.." title="Type in a name">
+</div>
+</div>
+
+<div class="w3-bar">
+    
+<ul id="myUL">
+  
+<li><a href="tel:9497996972"><b style="color:white">District Police Chief<br></b>04994-257401</a></li>
+<li><a href="tel:"><b style="color:white">[Fax]<br></b>04994-257401</a></li>
+<li><a href="tel:9497990141"><b style="color:white">Dy SP [Admn.]  <br></b>04994-255461</a></li>
+<li><a href="tel:"><b style="color:white">DPO<br></b>04994-255461</a></li>
+<li><a href="tel:9497965334"><b style="color:white">AA<br></b>04994-255461</a></li>
+<li><a href="tel:9497965292"><b style="color:white">Manager<br></b>04994-255461</a></li>
+<li><a href="tel:9497990143"><b style="color:white">Dy SP SB<br></b>04994-257371</a></li>
+<li><a href="tel:9497990142"><b style="color:white">Dy SP DCRB<br></b>04994-257600</a></li>
+<li><a href="tel:9497990144"><b style="color:white">Dy SP Narcotic Cell<br></b>04994-230110</a></li>
+<li><a href="tel:9497990145"><b style="color:white">Dy SP Crime Dett.<br></b>04994-257800</a></li>
+<li><a href="tel:9497990146"><b style="color:white">Dy SP SMS<br></b>04994-257500</a></li>
+<li><a href="tel:9497990281"><b style="color:white">AC  AR / AR Camp<br></b>04994-230088</a></li>
+<li><a href="tel:"><b style="color:white">Crime Stopper  <br></b>04994-257753</a></li>
+<li><a href="tel:9497990147"><b style="color:white">DySP Kasaragod  <br></b>04994-257552</a></li>
+<li><a href="tel:9497987217"><b style="color:white">CI Kasaragod <br></b>04994-223100</a></li>
+<li><a href="tel:9497980934"><b style="color:white">Kasaragod PS <br></b>04994-230100</a></li>
+<li><a href="tel:9497970297"><b style="color:white">CI Coastal PS Thalangara<br></b>04994-224800</a></li>
+<li><a href="tel:9497970298"><b style="color:white">Coastal PS Thalangara<br></b>04994-224800</a></li>
+<li><a href="tel:9497980937"><b style="color:white">Control Room <br></b>04994-222960</a></li>
+<li><a href="tel:9497980945"><b style="color:white">Traffic PS<br></b>04994-224100</a></li>
+<li><a href="tel:9497970103"><b style="color:white">IP Vidhyanagar<br></b>04994-297002</a></li>
+<li><a href="tel:9497990343"><b style="color:white">Vidhyanagar PS<br></b>04994-256766</a></li>
+<li><a href="tel:9497980914"><b style="color:white">Badiadukka PS<br></b>04998-284033</a></li>
+<li><a href="tel:9497987218"><b style="color:white">CI Kumbla  <br></b>04998-214188</a></li>
+<li><a href="tel:9497980924"><b style="color:white">Kumbla PS<br></b>04998-213037</a></li>
+<li><a href="tel:9497980926"><b style="color:white">Manjeswar PS<br></b>04998-272640</a></li>
+<li><a href="tel:9497987219"><b style="color:white">CI Adhur<br></b>04994-260100</a></li>
+<li><a href="tel:9497980913"><b style="color:white">Adhur PS<br></b>04994-260024</a></li>
+<li><a href="tel:9497980915"><b style="color:white">Bedakom PS<br></b>04994-205238</a></li>
+<li><a href="tel:9497990148"><b style="color:white">DySP Kanhangad<br></b>04672-201100</a></li>
+<li><a href="tel:9497987220"><b style="color:white">CI Hosdurg<br></b>04672-218150</a></li>
+<li><a href="tel:9497980921"><b style="color:white">Hosdurg PS<br></b>04672-204229</a></li>
+<li><a href="tel:"><b style="color:white">Control Room Hosdurg<br></b>04672-207100</a></li>
+<li><a href="tel:9497964323"><b style="color:white">IP Bekal<br></b>04672-236324</a></li>
+<li><a href="tel:9497980916"><b style="color:white">Bekal PS<br></b>04672-236224</a></li>
+<li><a href="tel:9497980933"><b style="color:white">Ambalathara PS<br></b>04672-243200</a></li>
+<li><a href="tel:9497987221"><b style="color:white">CI Vellarikundu<br></b>04672-242599</a></li>
+<li><a href="tel:9497980931"><b style="color:white">Vellarikundu PS<br></b>04672-242300</a></li>
+<li><a href="tel:9497980920"><b style="color:white">Chittarikal PS<br></b>04672-221054</a></li>
+<li><a href="tel:9497980930"><b style="color:white">Rajapuram PS<br></b>04672-224029</a></li>
+<li><a href="tel:9497987222"><b style="color:white">CI Nileswar<br></b>04672-281444</a></li>
+<li><a href="tel:9497980928"><b style="color:white">Nileswar PS<br></b>04672-280240</a></li>
+<li><a href="tel:9497980919"><b style="color:white">Cheemeni PS<br></b>04672-250220</a></li>
+<li><a href="tel:9497980918"><b style="color:white">Chandera PS<br></b>04672-210242</a></li>
+<li><a href="tel:9497987223"><b style="color:white">WCI<br></b>04994-257591</a></li>
+<li><a href="tel:9497980942"><b style="color:white">Women Cell<br></b></a></li>
+<li><a href="tel:9497981300"><b style="color:white">SI Computer Cell<br></b>04994-257753</a></li>
+<li><a href="tel:"><b style="color:white">Railway PS Kasaragod<br></b>04994-223030</a></li>
+<li><a href="tel:9946500101"><b style="color:white">Highway Patrol- 1<br></b></a></li>
+<li><a href="tel:9946500102"><b style="color:white">Highway Patrol - 2<br></b></a></li>
+
+
+
+
+
+<br>
+
+
+
+
+ 
+
+  </div>
+ 
+</ul>
+</div>
+
+
+
+
+
+<script>
+function myFunction() {
+    var input, filter, ul, li, a, i, txtValue;
+    input = document.getElementById("myInput");
+    filter = input.value.toUpperCase();
+    ul = document.getElementById("myUL");
+    li = ul.getElementsByTagName("li");
+    for (i = 0; i < li.length; i++) {
+        a = li[i].getElementsByTagName("a")[0];
+        txtValue = a.textContent || a.innerText;
+        if (txtValue.toUpperCase().indexOf(filter) > -1) {
+            li[i].style.display = "";
+        } else {
+            li[i].style.display = "none";
+        }
+    }
+}
+</script>
+
+<script>
+        $(document).ready(function () {
+            $('.sidenav').sidenav();
+            $(".dropdown-trigger").dropdown();
+        });
+    </script>
+
+</body>
+</html>

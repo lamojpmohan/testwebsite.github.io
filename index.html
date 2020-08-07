@@ -1,0 +1,103 @@
+<html>
+<head>
+  <title>Firebase Login</title>
+  <link href="https://fonts.googleapis.com/css?family=Nunito:400,600,700" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+
+  <head>
+    <title>KEPA CONTACTS</title>
+    <link rel="stylesheet" type="text/css" href="css/materialize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/w3.css">
+    <link rel="stylesheet" type="text/css" href="font.css">
+</head>
+<!--Body-->
+<body>
+<style type="text/css">
+        body {
+            display: flex;
+            min-height: 100vh;
+            flex-direction: column;
+            background-color: bisque;
+        }
+
+        main {
+            flex: 1 0 auto;
+        }
+
+      
+
+       blink {
+        animation: blinker 2.1s linear infinite;
+        color: red;
+       }
+      @keyframes blinker {  
+        50% { opacity: 0; }
+       }
+       
+       @keyframes blinker-one {  
+         0% { opacity: 0; }
+       }
+       
+       @keyframes blinker-two {  
+         100% { opacity: 0; }
+       }
+</style>
+
+<script src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+
+	<script src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+	<script src = "lib/ngCordova/dist/ng-cordova.js"></script>
+
+    <nav style="background-color: rgba(208,25,110) !important">
+        <div class="nav-wrapper">
+            <a class="center">
+                <h5 style="font-size: 22px;text-align: center;padding: 5px;font-family: times header"><b>KEPA CONTACTS</b></h5>
+            </a>
+        </div>
+    </nav>
+    <br>
+    <br>
+<div class="container" style="padding-right: 80px; padding-left: 20px">
+  <div id="login_div" class="main-div">
+        <input style="padding: 10px 36px;border-color: black;border-style: solid" type="email" placeholder="Email..." id="email_field" /> <br> <br>
+    <input style="padding: 10px 36px;border-color: black;border-style: solid" type="password" placeholder="Password..." id="password_field" /> <br> <br>
+    <button type="button" style="background-color: green;padding: 10px 25px;border-color: black;border-style: solid;border-radius: 10px;color: white;font-weight: bold;font-family: comic sans ms " onclick="login()">LOGIN TO ACCOUNT</button> <br> <br>
+
+        <button type="button" style="background-color: green;padding: 10px 40px;border-color: black;border-style: solid;border-radius: 10px;color: white;font-weight: bold;font-family: comic sans ms" onclick="location.href='registration.html'">REGISTRATION</button>
+  </div>
+</div>
+
+
+
+<!-- 
+  <div id="user_div" class="loggedin-div">
+    <h3>Welcome User</h3>
+    <p id="user_para">Welcome to Firebase web login Example. You're currently logged in.</p>
+    <button onclick="logout()">Logout</button>
+  </div>
+  -->
+
+
+  <script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
+  <script>
+    // Initialize Firebase
+    var firebaseConfig = {
+    apiKey: "AIzaSyDr2uIm84SPMkuSuFJVGcrjf7repXTNq6k",
+    authDomain: "kepa-contact.firebaseapp.com",
+    databaseURL: "https://kepa-contact.firebaseio.com",
+    projectId: "kepa-contact",
+    storageBucket: "kepa-contact.appspot.com",
+    messagingSenderId: "237922377972",
+    appId: "1:237922377972:web:3b4fe2b04a6a82c719bea1"
+  };
+   // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  </script>
+  <script src="index.js"></script>
+
+</body>
+</html>

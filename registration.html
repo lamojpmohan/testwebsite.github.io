@@ -1,0 +1,143 @@
+<html>
+<title>
+Google
+</title>
+<head>
+
+ 
+
+</head>
+
+<body bgcolor="bisque">
+
+<form action="https://docs.google.com/forms/d/e/1FAIpQLSfa8U8bYP-lw0U0luIIocAyQU2O_8uaFdPw5awHo7amOWMzWw/formResponse"
+      target="_self"
+      id="bootstrapForm"
+      method="POST">
+    <fieldset style="text-align: center;color: brown;font-weight: bold">
+        <h2>KEPA CONTACTS<br></h2><small>REGISTRATION FORM</small>
+    </fieldset>
+                <br>
+
+    <!-- Field type: "short" id: "60920881" -->
+    <fieldset>
+        <legend style="font-weight: bold;color: blue" for="60920881">NAME<span style="font-weight: bold;color: red">*</span></legend>
+        <div class="form-group">
+            <input id="1374334904" type="text" name="entry.1374334904" class="form-control" required>
+        </div>
+    </fieldset>
+
+
+    <!-- Field type: "short" id: "442408576" -->
+    <fieldset>
+        <legend style="font-weight: bold;color: blue" for="442408576">PEN NUMBER<span style="font-weight: bold;color: red">*</span></legend>
+        <div class="form-group">
+            <input id="1578095102" type="tel" name="entry.1578095102" class="form-control" required>
+        </div>
+    </fieldset>
+
+
+    <!-- Field type: "short" id: "838305680" -->
+    <fieldset>
+        <legend style="font-weight: bold;color: blue" for="838305680">DESIGNATION<span style="font-weight: bold;color: red">*</span></legend>
+        <div class="form-group">
+            <input id="41319486" type="text" name="entry.41319486" class="form-control" required>
+        </div>
+    </fieldset>
+
+
+    <!-- Field type: "short" id: "921243263" -->
+    <fieldset>
+        <legend style="font-weight: bold;color: blue" for="921243263">GENERAL NUMBER</legend>
+        <div class="form-group">
+            <input id="445082324" type="tel" name="entry.445082324" class="form-control" >
+        </div>
+    </fieldset>
+
+
+    <!-- Field type: "short" id: "2078654704" -->
+    <fieldset>
+        <legend style="font-weight: bold;color: blue" for="2078654704">COMPANY/ OFFICE/ SECTION<span style="font-weight: bold;color: red">*</span></legend>
+        <div class="form-group">
+            <input id="2062425121" type="text" name="entry.2062425121" class="form-control" required>
+        </div>
+    </fieldset>
+
+
+    <!-- Field type: "dropdown" id: "1454633633" -->
+    <fieldset>
+        <legend style="font-weight: bold;color: blue;" for="1454633633">BLOOD GROUP<span style="font-weight: bold;color: red">*</span></legend>
+        <div class="form-group">
+            <select id="1454633633" name="entry.779314727" class="form-control">
+                <option value="A+ve"></option>
+                <option value="A+ve">A+ve</option>
+                <option value="A-ve">A-ve</option>
+                <option value="B+ve">B+ve</option>
+                <option value="B-ve">B-ve</option>
+                <option value="O+ve">O+ve</option>
+                <option value="O-ve">O-ve</option>
+                <option value="AB+ve">AB+ve</option>
+                <option value="AB-ve">AB-ve</option>
+            </select>
+        </div>
+    </fieldset>
+
+
+    <!-- Field type: "short" id: "568121127" -->
+    <fieldset>
+        <legend style="font-weight: bold;color: blue" for="568121127">MOBILE NUMBER<span style="font-weight: bold;color: red">*</span></legend>
+        <div class="form-group">
+            <input id="1525099787" type="tel" name="entry.1525099787" class="form-control" required>
+        </div>
+    </fieldset>
+
+
+    <!-- Field type: "short" id: "794904997" -->
+    <fieldset>
+        <legend style="font-weight: bold;color: blue" for="794904997">E-MAIL<span style="font-weight: bold;color: red">*</span></legend>
+        <div class="form-group">
+            <input id="1581380305" type="text" name="entry.1581380305" class="form-control" required>
+        </div>
+    </fieldset>
+
+    <input type="hidden" name="fvv" value="1">
+    <input type="hidden" name="fbzx" value="4118178340458798115">  <br>
+    <!--
+       BUTTON
+    -->
+    <input type="hidden" name="pageHistory" value="0">
+
+    <input style="background-color: green;padding: 10px 36px;border-style: inherit;border-color: black;border-style: solid;border-radius: 5px;color: white" class="btn btn-primary" type="submit" value="Submit">
+</form>
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.min.js" integrity="sha256-2Pjr1OlpZMY6qesJM68t2v39t+lMLvxwpa8QlRjJroA=" crossorigin="anonymous"></script>
+
+
+<script type="text/javascript">
+$('#bootstrapForm').submit(function (event) {
+    event.preventDefault()
+    var extraData = {}
+    $('#bootstrapForm').ajaxSubmit({
+        data: extraData,
+        dataType: 'jsonp', 
+        error: function () {
+            
+            alert('You have been Registered Successfully!....... Username and Password Send to this Registered Mobile Number.')
+          
+        }
+    })
+})
+
+
+</script>
+
+
+
+ 
+ </body>
+
+ </html>
